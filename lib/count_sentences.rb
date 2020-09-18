@@ -31,18 +31,4 @@ end
 
 end
   
-  
-  def count_sentences
-if self.end_with?(".") || self.end_with?("?") || self.end_with?("!") 
-  sentences = self.split
- sentences.delete("")
-  sentences.count 
-
-else
-  return 0
-end
-end
-  
-  
-end
-
+ 
